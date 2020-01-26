@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5b5d52a-78c1-4c0a-86e5-dc2a70829de7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/book-list/book-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +77,8 @@
       <workItem from="1579946243714" duration="8765000" />
       <workItem from="1579961234343" duration="655000" />
       <workItem from="1579976643685" duration="5679000" />
-      <workItem from="1580025486517" duration="21301000" />
+      <workItem from="1580025486517" duration="21559000" />
+      <workItem from="1580055134117" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1579915506758</created>
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580048152856</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="moved requests to action">
+      <created>1580051482320</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580051482347</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +163,7 @@
     <MESSAGE value="added spinner loading before receiving data" />
     <MESSAGE value="Error processing" />
     <MESSAGE value="use ownProps to refactor the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="use ownProps to refactor the code" />
+    <MESSAGE value="moved requests to action" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved requests to action" />
   </component>
 </project>
