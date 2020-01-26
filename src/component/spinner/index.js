@@ -1,3 +1,3 @@
-import Spinner from './error-indicator'
+import Spinner from './spinner'
 
 export default Spinner;
