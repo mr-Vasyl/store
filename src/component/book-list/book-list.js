@@ -51,9 +51,9 @@ const mapStateToProps = ({bookList: {books, loading, error}}) => {
 
 const mapDispatchToProps = (dispatch, {bookstoreService}) => {
     return bindActionCreators({
-        fetchBooks:fetchBooks(bookstoreService),
+        fetchBooks: fetchBooks(bookstoreService),
         onAddedToCart: (bookAddedToCart)
-    },dispatch)
+    }, dispatch)
 }
 
 
