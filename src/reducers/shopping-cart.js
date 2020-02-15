@@ -2,7 +2,9 @@
 const updateCartItems = (cartItems, item, idx) => {
     if (item.count === 0) {
         return [
+           // all items before
             ...cartItems.slice(0, idx),
+           // all items after
             ...cartItems.slice(idx + 1)
         ]
     }
@@ -13,11 +15,14 @@ const updateCartItems = (cartItems, item, idx) => {
         ];
     }
     return [
+        // all items before index
         ...cartItems.slice(0, idx),
         item,
+        //all items after index
         ...cartItems.slice(idx + 1)
     ]
 }
+
 const updateCartItem = (book, item = {}, quantity) => {
     const {
         id = book.id,
@@ -55,7 +60,6 @@ const updateShoppingCart = (state, action) => {
         }
     }
     switch (action.type) {
-
         case 'BOOK_ADDED_TO_CART':
             return updateOrder(state, action.payload, 1)
 

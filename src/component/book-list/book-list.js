@@ -1,13 +1,15 @@
 import React, {Component} from 'react'
+import {bindActionCreators} from "redux";
+import {connect} from 'react-redux'
+
 import './book-list.css'
 import BookListItem from "../book-list-item";
-import {connect} from 'react-redux'
 import withBookstoreService from "../hoc/with-bookstore-service";
 import {fetchBooks, bookAddedToCart} from "../../actions";
 import {compose} from '../../utils';
 import Spinner from "../spinner";
 import ErrorIndicator from "../error-indicator";
-import {bindActionCreators} from "redux";
+
 
 const BookList = ({books, onAddedToCart}) => {
     return (

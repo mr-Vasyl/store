@@ -3,14 +3,12 @@ const booksRequested = () => {
         type: 'FETCH_BOOKS_REQUEST'
     }
 }
-
 const booksLoaded = (newBooks) => {
     return {
         type: 'FETCH_BOOKS_SUCCESS',
         payload: newBooks
     }
 };
-
 const booksError = (error) => {
     return {
         type: 'FETCH_BOOKS_FAILURE',
@@ -35,6 +33,7 @@ export const allBooksRemovedFromCart = (bookId) => {
         payload: bookId
     }
 }
+
 
 const fetchBooks = (bookstoreService) => () => (dispatch) => {
     dispatch(booksRequested());
