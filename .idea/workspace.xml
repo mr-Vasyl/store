@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b5d52a-78c1-4c0a-86e5-dc2a70829de7" name="Default Changelist" comment="">
+    <list default="true" id="d5b5d52a-78c1-4c0a-86e5-dc2a70829de7" name="Default Changelist" comment="changed links to pictures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/shop-header/shop-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/shop-header/shop-header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
     </list>
@@ -129,7 +126,7 @@
       <workItem from="1581785598565" duration="604000" />
       <workItem from="1581874305294" duration="453000" />
       <workItem from="1581965933467" duration="2617000" />
-      <workItem from="1581983488792" duration="1737000" />
+      <workItem from="1581983488792" duration="2090000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1579915506758</created>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581785499450</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="uploading pictures">
+      <created>1581986089022</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581986089106</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +290,8 @@
     <MESSAGE value="code organization reducer'a" />
     <MESSAGE value="Middleware(thunk) plus code refactoring" />
     <MESSAGE value="deleted the extra css and added a comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted the extra css and added a comment" />
+    <MESSAGE value="uploading pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploading pictures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
