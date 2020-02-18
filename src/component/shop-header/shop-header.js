@@ -7,7 +7,7 @@ const ShopHeader = () => {
     return (
         <header className="shop-header row">
             <Link to='/'>
-                <div className="logo text-dark" >ReStore</div>
+                <div className="logo text-dark" >Store</div>
             </Link>
             <Link to='cart'>
                 <div className="shopping-cart">

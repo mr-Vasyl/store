@@ -3,20 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="d5b5d52a-78c1-4c0a-86e5-dc2a70829de7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/book-list-item/book-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/book-list-item/book-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/book-list/book-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/hoc/with-bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/hoc/with-bookstore-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/pages/home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/pages/home-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/shop-header/shop-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/shop-header/shop-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/shopping-cart-table/shopping-cart-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/book-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="stores" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -59,6 +59,26 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -69,6 +89,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,7 +123,13 @@
       <workItem from="1579976643685" duration="5679000" />
       <workItem from="1580025486517" duration="21559000" />
       <workItem from="1580055134117" duration="12510000" />
-      <workItem from="1580109400337" duration="14752000" />
+      <workItem from="1580109400337" duration="15014000" />
+      <workItem from="1580759919937" duration="35000" />
+      <workItem from="1581782535540" duration="2828000" />
+      <workItem from="1581785598565" duration="604000" />
+      <workItem from="1581874305294" duration="453000" />
+      <workItem from="1581965933467" duration="2617000" />
+      <workItem from="1581983488792" duration="1737000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1579915506758</created>
@@ -193,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580128254960</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Middleware(thunk) plus code refactoring">
+      <created>1580128858395</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580128858395</updated>
+    </task>
+    <task id="LOCAL-00017" summary="deleted the extra css and added a comment">
+      <created>1581785499450</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581785499450</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +285,8 @@
     <MESSAGE value="removing elements from an array" />
     <MESSAGE value="code organization reducer'a" />
     <MESSAGE value="Middleware(thunk) plus code refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Middleware(thunk) plus code refactoring" />
+    <MESSAGE value="deleted the extra css and added a comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted the extra css and added a comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,8 +294,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/reducers/index.js</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/reducers/shopping-cart.js</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/reducers/index.js</url>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

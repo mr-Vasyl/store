@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux'
-import {BrowserRouter as Router} from 'react-router-dom'
+import {HashRouter, BrowserRouter as Router} from 'react-router-dom'
 
 import App from './component/app'
 import ErrorBoundry from "./component/error-boundry";
